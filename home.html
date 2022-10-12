@@ -1,60 +1,112 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Jaya webpage </title>
-        <link rel="stylesheet" type"text/css" href="css/style.css"/>
+        <title>JayaWebPage</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+        }
+        .menubar{
+            background-color: #B93D04;
+            height: 70px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5%;
+        }
+        .logo{
+            color: white;            
+            font-size: 40px;
+        }
+        .menubar ul{
+            list-style: none;
+            display: flex;
+        }
+        .menubar ul li{
+            padding: 10px 30px;
+        }
+        .menubar ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        .banner1{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;       
+        }
+        #img1{
+            width: 70%;
+        } 
+        .banner2{
+            height: 400px;
+            width: 100%;
+        }
+        #img2{
+            height: 100%;
+            float: left;            
+            margin: 20px 70px 20px 400px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        p{
+            font-size: 14px;
+        }
+        button{
+            background-color: #00BED3;
+            color: white;
+            font-size: 16px;
+            border-style: none;
+            padding:10px;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    </style>
     </head>
     <body>
-        <div id="topbar">
+        <div class="menubar">
+            <h1 class="logo">WILD TOUR</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
         </div>
-        <div id="container">
-            <div id="header">
-                
-                <img src="images/jaya.png" />
-               
-
-
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">services</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
-            </div>
-            <div id="girl">
-                <img src="images/girl.png"/>
-                <p>to center an image, set left and right margin to auto, and make it into a block element.</p>
-            </div>
-            <div id="content 1">
-                <h4 welcome is cse </h4>
-                <img src="images/girl.png" />
-                
-
-              
-            </div>
-            <div id="content 2">
-                <p class="loresu W3.CSS is a modern, responsive, mobile first CSS framework.
-                
-
-
-                W3.CSS provides equality for all browsers: Chrome. Firefox. Edge. IE. Safari. Opera.</p>
-            
-            </div>
-            <div id ="content3">
-                <p class="parellel">lorea ipueum </p>
-
-              <p>  W3.CSS provides equality for all browsers: Chrome. Firefox. Edge. IE. Safari. Opera.</p>
-              <a href="#"class="more">Readmore...</a>
-            </div>
-              
-
-            </div>
-            
-        
-
-                
-                    
-        
-
+        <div class="banner1">
+            <img id="img1" src="girl.png.png" width="400" height="400">  
+        </div>
+        <div class="banner2">
+            <img id="img2" src="girl.png.png" width="250" height="300">
+            <h2><br>Join us and keep ahead of animal <br> welfare</h2>
+            <p><br><br>
+                Fusce faucibus ante vitae justo efficitur elementum. Donec faucibus arcu <br>
+                elementum, luctus justo, ac purus semper pharetra. Donec facuibus arcu<br>
+                elementum, luctus justo 
+            </p>
+            <p>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam architecto, <br>
+                ex veritatis tempora aliquid labore natus autem iusto magni dicto incidunt<br>
+                nostrum odit veniam voluptas provident minus saepe reiciendls nulla dolore<br>
+                delectus molestias nam officiis repellat, Sequi corrupti reiciendis nostrum.
+            </p>
+            <br>
+            <button>Read more</button>
+        </div>
     </body>
-    </html>
+</html>
+                
+           
+            
